@@ -18,7 +18,7 @@
   "content_scripts": [
     {
       "matches": ["http://devices.tor.pivotal.io/"],
-      "js": [""]
+      "js": ["renewer.js"]
     }
   ],
 
