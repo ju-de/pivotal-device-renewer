@@ -1,0 +1,28 @@
+{
+  "name": "device renewer",
+  "version": "qa",
+
+  "manifest_version": 2,
+
+  "background": {
+    "scripts": [""],
+    "persistent": false
+  },
+
+  "permissions": [
+    "tabs",
+    "storage",
+    "http://devices.tor.pivotal.io/"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["http://devices.tor.pivotal.io/"],
+      "js": [""]
+    }
+  ],
+
+  "page_action":{
+    "default_title": "device renewer",
+  }
+}
